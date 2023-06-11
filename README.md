@@ -49,7 +49,18 @@ d. Menginstall webmin dengan syntax sebagai berikut
    ![image](https://github.com/Edran32/UAP-AdSis/assets/50135710/f05f31dd-8f1c-4f3c-bf76-d25f9972505c)   
 e. Untuk mengakses Webmin dapat dilakukan melalui memasukkan link `https://192.168.116.134:10000` pada, di mana IP tersebut merupakan IP komputer dan menggunakan port 10000. Setelah itu, lakukan login dengan menginputkan username dan password Linux Ubuntu.        
    ![image](https://github.com/Edran32/UAP-AdSis/assets/50135710/d04463ae-329d-4762-ba87-5b44de7e6ca3)    
-f. 
+f. Masuk ke menu `Users and Group` untuk membuat sebuah user baru bernama “ferdinandrey” dengan login shell /bin/bash dan membuat password untuk login requirement.      
+   ![image](https://github.com/Edran32/UAP-AdSis/assets/50135710/e3353833-5616-41fa-ac65-8f0ebe279bea)     
+   ![image](https://github.com/Edran32/UAP-AdSis/assets/50135710/09af4b04-3383-456c-896a-4bb6a1de7d71)   
+   
+   User "ferdinandrey" berhasil dibuat     
+   ![image](https://github.com/Edran32/UAP-AdSis/assets/50135710/78f2a563-1d97-4cb8-8f26-85206b37c2c7)    
+g. Membuat group baru dengan nama `Adsis_E` dan emasukkan user ferdinandrey ke dalam group   
+   ![image](https://github.com/Edran32/UAP-AdSis/assets/50135710/e6e315a9-4efb-4311-ab16-8ad95762fe03)    
+   ![image](https://github.com/Edran32/UAP-AdSis/assets/50135710/4f15b5b0-f721-490b-91d0-3b5739bf1979)    
+
+   Seperti yang dapat dilihat pada gambar di bawah ini, user "ferdinandrey" berhasil ditamabahkan pada Group `Adsis-E`
+   ![image](https://github.com/Edran32/UAP-AdSis/assets/50135710/7da17d2a-01c0-4b6e-90ac-d331e48e1be8)
   
 ## 4. Lakukan ping ke alamat ip anda dan coba lakukan reject dan drop di webmin, lalu analisis apa yang terjadi?
   
