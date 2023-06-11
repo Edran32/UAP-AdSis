@@ -35,9 +35,21 @@ c. Menjalankan perintah route untuk memastikan informasi pada routing table
    Syntax: `sudo route -n`     
    ![image](https://github.com/Edran32/UAP-AdSis/assets/50135710/46bac9a5-04d0-4d6d-bbed-d7803322dfaf)           
 
-
-
 ## 3. Lakukan Instalasi Webmin lalu buatlah user bernama nama anda, lalu buat group Adsis_(kelas masing-masing) dan masukkan nama anda di group.  
+a. Menjalankan perintah `sudo nano /etc/apt/sources.list`, lalu menambahkan `deb http://download.webmin.com/download/repository sarge contrib` pada bagian akhir file.    
+   ![image](https://github.com/Edran32/UAP-AdSis/assets/50135710/21b67b18-c6a5-4007-b9b1-460634a49065)       
+   ![Screenshot_5370](https://github.com/Edran32/UAP-AdSis/assets/50135710/9a27a5a5-bab7-494d-8b5c-1a7647f50de3)    
+b. Menambahkan kunci PGP Webmin pada sistem operasi Linux agar sistem mempercayai repositori Webmin yang telah ditambahkan sebelumnya.     
+   Syntax: `wget http://www.webmin.com/jcameron-key.asc`
+   ![Screenshot_5372](https://github.com/Edran32/UAP-AdSis/assets/50135710/b484ec2a-c3b0-4d81-a2a0-eb67b6a69334)   
+c. Memperbarui daftar paket pada sistem operasi Linux agar menyertakan repositori Webmin yang telah ditambahkan sebelumnya.     
+   ![image](https://github.com/Edran32/UAP-AdSis/assets/50135710/a5de4631-780f-4598-8ca6-d41dbeafb5e3)      
+d. Menginstall webmin dengan syntax sebagai berikut   
+   Syntax: `sudo apt-get install webmin`  
+   ![image](https://github.com/Edran32/UAP-AdSis/assets/50135710/f05f31dd-8f1c-4f3c-bf76-d25f9972505c)   
+e. Untuk mengakses Webmin dapat dilakukan melalui memasukkan link `https://192.168.116.134:10000` pada, di mana IP tersebut merupakan IP komputer dan menggunakan port 10000. Setelah itu, lakukan login dengan menginputkan username dan password Linux Ubuntu.        
+   ![image](https://github.com/Edran32/UAP-AdSis/assets/50135710/d04463ae-329d-4762-ba87-5b44de7e6ca3)    
+f. 
   
 ## 4. Lakukan ping ke alamat ip anda dan coba lakukan reject dan drop di webmin, lalu analisis apa yang terjadi?
   
