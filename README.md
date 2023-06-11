@@ -37,8 +37,8 @@ c. Menjalankan perintah route untuk memastikan informasi pada routing table
 
 
 
-3. Lakukan Instalasi Webmin lalu buatlah user bernama nama anda, lalu buat group Adsis_(kelas masing-masing) dan masukkan nama anda di group.  
+## 3. Lakukan Instalasi Webmin lalu buatlah user bernama nama anda, lalu buat group Adsis_(kelas masing-masing) dan masukkan nama anda di group.  
   
-4. Lakukan ping ke alamat ip anda dan coba lakukan reject dan drop di webmin, lalu analisis apa yang terjadi?
+## 4. Lakukan ping ke alamat ip anda dan coba lakukan reject dan drop di webmin, lalu analisis apa yang terjadi?
   
-5. Buatlah perintah otomatis yang berfungsi untuk ping www.filkom.ub.ac.id
+## 5. Buatlah perintah otomatis yang berfungsi untuk ping www.filkom.ub.ac.id
