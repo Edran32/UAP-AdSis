@@ -1,5 +1,6 @@
 # UAP-AdSis
-1. Buat direktori dengan nama UAP-Adsis, isi dengan file txt dengan format penamaan catatannya- <nama kamu>.txt, kemudian isi file txt tersebut dengan nama dan NIM kamu. Kemudian atur permission view-only pada file tersebut untuk user biasa. Tunjukkan bukti berupa screenshot yang menunjukkan bahwa file tersebut berhasil diatur permissionnya menjadi view-only untuk user biasa
+
+## 1. Buat direktori dengan nama UAP-Adsis, isi dengan file txt dengan format penamaan catatannya-<nama kamu>.txt, kemudian isi file txt tersebut dengan nama dan NIM kamu. Kemudian atur permission view-only pada file tersebut untuk user biasa. Tunjukkan bukti berupa screenshot yang menunjukkan bahwa file tersebut berhasil diatur permissionnya menjadi view-only untuk user biasa
 
 a. Membuat sebuah direktori baru yang diberi nama `UAP-Adsis` menggunakan perintah mkdir
    ![Screenshot_5371](https://github.com/Edran32/UAP-AdSis/assets/50135710/0240e11c-4a4b-4758-95e2-46433b8a8500)              
@@ -14,7 +15,8 @@ e. Menjalankan perintah ls -l, dapat dilihat bahwa pengguna biasa tidak dapat me
    ![Screenshot_5379](https://github.com/Edran32/UAP-AdSis/assets/50135710/1a84e8c2-05a5-44af-a4e3-014867b03cb2)      
    ![Screenshot_5382](https://github.com/Edran32/UAP-AdSis/assets/50135710/bcc461a6-30ea-475c-9312-ea3e5426e9e8)     
   
-2. Lakukan konfigurasi alamat IP address sementara pada sistem dan default gateway. (petunjuk 192.168.56.x | x adalah nomor absen)
+
+## 2. Lakukan konfigurasi alamat IP address sementara pada sistem dan default gateway. (petunjuk 192.168.56.x | x adalah nomor absen)
 
 a. Melakukan konfigurasi alamat IP address dan default gateway-nya, saya menggunakan `192.168.56.11`, angka 11 di sini merupakan nomor absen saya di mata kuliah Administrasi Sistem.      
 Syntax: `sudo ifconfig ens33 192.168.56.11 netmask 255.255.255.0`     
@@ -24,7 +26,7 @@ b. Melakukan konfigurasi IP address default gateway dengan perintah route add
 Syntax: `sudo route add default gw 192.168.56.11 ens33`        
    ![Screenshot_5385](https://github.com/Edran32/UAP-AdSis/assets/50135710/becba3b3-149e-49c1-a39f-47ce68aa2e70)            
 
-c. Menjalankan perintah sudo route -n untuk memastikan informasi pada routing table
+c. Menjalankan perintah `sudo route -n` untuk memastikan informasi pada routing table
    ![image](https://github.com/Edran32/UAP-AdSis/assets/50135710/46bac9a5-04d0-4d6d-bbed-d7803322dfaf)           
 
 
