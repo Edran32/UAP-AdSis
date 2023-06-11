@@ -17,7 +17,7 @@ e. Menjalankan perintah ls -l, dapat dilihat bahwa pengguna biasa tidak dapat me
 2. Lakukan konfigurasi alamat IP address sementara pada sistem dan default gateway. (petunjuk 192.168.56.x | x adalah nomor absen)
 
 a. Melakukan konfigurasi alamat IP address dan default gateway-nya, saya menggunakan `192.168.56.11`, angka 11 di sini merupakan nomor absen saya di mata kuliah Administrasi Sistem.      
-Syntax: sudo ifconfig ens33 192.168.56.11 netmask 255.255.255.0        
+Syntax: `*sudo ifconfig ens33 192.168.56.11 netmask 255.255.255.0*`     
 ![Screenshot_5383](https://github.com/Edran32/UAP-AdSis/assets/50135710/7cab568a-5d64-45ef-b402-58ab6a6d8d85)     
 ![Screenshot_5384](https://github.com/Edran32/UAP-AdSis/assets/50135710/1dbc22e6-e890-4477-a9f4-46c2d45c986c)       
 
