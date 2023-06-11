@@ -8,7 +8,7 @@ b. Menggunakan perintah touch untuk membuat sebuah file txt yang diberi nama `ca
 c. Menjalankan perintah nano untuk membuka file text yang dibuat sebelumnya, kemudian menambahkan nama dan NIM di dalam file tersebut.     
    ![Screenshot_5373](https://github.com/Edran32/UAP-AdSis/assets/50135710/35363712-0a41-472f-8417-377ab5c0d371)       
    ![Screenshot_5374](https://github.com/Edran32/UAP-AdSis/assets/50135710/f2549663-befd-450e-b4fc-3af728cf950f)       
-d. Untuk mengatur permission view-only pada file tersebut untuk user biasa, maka perlu menjalankan perintah perintah sudo chmod 644 pada file `catatannya-edran.txt`. Oleh karena itu, perlu menginputkan password untuk menjalankan perintah dengan hak akses superuser atau root tersebut.
+d. Untuk mengatur permission view-only pada file tersebut untuk user biasa, maka perlu menjalankan perintah perintah sudo chmod 644 pada file `catatannya-edran.txt`. Oleh karena itu, perlu menginputkan password untuk menjalankan perintah dengan hak akses superuser atau root tersebut.           
    ![Screenshot_5375](https://github.com/Edran32/UAP-AdSis/assets/50135710/a57b6fe8-a24f-47b2-bbab-6f6f9c8fa744)     
 e.
   
