@@ -63,5 +63,14 @@ g. Membuat group baru dengan nama `Adsis_E` dan emasukkan user ferdinandrey ke d
    ![image](https://github.com/Edran32/UAP-AdSis/assets/50135710/7da17d2a-01c0-4b6e-90ac-d331e48e1be8)
   
 ## 4. Lakukan ping ke alamat ip anda dan coba lakukan reject dan drop di webmin, lalu analisis apa yang terjadi?
+a. Melakukan ping ke IP address komputer.   
+   Syntax: `ping 192.168.116.134 -t`   
+   ![image](https://github.com/Edran32/UAP-AdSis/assets/50135710/ba8ce5c1-5dfd-48c6-a748-f8ad1da09a99)     
+b. Masuk ke menu Networking, kemudian ke bagian Linux Firewall. Pada Incoming Packets (INPUT), tekan opsi Add rule dan set INPUT menjadireject ping. Setelah itu, Apply configuration.
+   ![image](https://github.com/Edran32/UAP-AdSis/assets/50135710/69db0ea3-dd50-4785-832c-bbcc53bb1a24)      
+   ![image](https://github.com/Edran32/UAP-AdSis/assets/50135710/2e2feb9d-a9b9-4a54-bf4c-a780b4200d45)          
+c. Lakukan ping kembali menggunakan perintah yang sama pada langkah (a)
+   ![image](https://github.com/Edran32/UAP-AdSis/assets/50135710/182a17e4-bc5c-4856-b5fc-bdadf13fa9ff)
+
   
 ## 5. Buatlah perintah otomatis yang berfungsi untuk ping www.filkom.ub.ac.id
