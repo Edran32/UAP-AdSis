@@ -1,13 +1,16 @@
 # UAP-AdSis
 1. Buat direktori dengan nama UAP-Adsis, isi dengan file txt dengan format penamaan catatannya- <nama kamu>.txt, kemudian isi file txt tersebut dengan nama dan NIM kamu. Kemudian atur permission view-only pada file tersebut untuk user biasa. Tunjukkan bukti berupa screenshot yang menunjukkan bahwa file tersebut berhasil diatur permissionnya menjadi view-only untuk user biasa
 
-a. Membuat sebuah direktori baru yang diberi nama UAP-Adsis menggunakan perintah mkdir
+a. Membuat sebuah direktori baru yang diberi nama `UAP-Adsis` menggunakan perintah mkdir
    ![Screenshot_5371](https://github.com/Edran32/UAP-AdSis/assets/50135710/0240e11c-4a4b-4758-95e2-46433b8a8500)              
-b. Menggunakan perintah touch untuk membuat sebuah file txt yang diberi nama "catatannya-edran"
+b. Menggunakan perintah touch untuk membuat sebuah file txt yang diberi nama `catatannya-edran`
    ![Screenshot_5372](https://github.com/Edran32/UAP-AdSis/assets/50135710/42d027c1-cedd-4e98-a3e9-d525571432dd)            
 c. Menjalankan perintah nano untuk membuka file text yang dibuat sebelumnya, kemudian menambahkan nama dan NIM di dalam file tersebut.     
    ![Screenshot_5373](https://github.com/Edran32/UAP-AdSis/assets/50135710/35363712-0a41-472f-8417-377ab5c0d371)       
-   ![Screenshot_5374](https://github.com/Edran32/UAP-AdSis/assets/50135710/f2549663-befd-450e-b4fc-3af728cf950f)
+   ![Screenshot_5374](https://github.com/Edran32/UAP-AdSis/assets/50135710/f2549663-befd-450e-b4fc-3af728cf950f)       
+d. Untuk mengatur permission view-only pada file tersebut untuk user biasa, maka perlu menjalankan perintah perintah sudo chmod 644 pada file `catatannya-edran.txt`. Oleh karena itu, perlu menginputkan password untuk menjalankan perintah dengan hak akses superuser atau root tersebut.
+   ![Screenshot_5375](https://github.com/Edran32/UAP-AdSis/assets/50135710/a57b6fe8-a24f-47b2-bbab-6f6f9c8fa744)     
+e.
   
 2. Lakukan konfigurasi alamat IP address sementara pada sistem dan default gateway. (petunjuk 192.168.56.x | x adalah nomor absen)
 
