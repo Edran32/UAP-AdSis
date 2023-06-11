@@ -17,9 +17,17 @@ e. Menjalankan perintah ls -l, dapat dilihat bahwa pengguna biasa tidak dapat me
 2. Lakukan konfigurasi alamat IP address sementara pada sistem dan default gateway. (petunjuk 192.168.56.x | x adalah nomor absen)
 
 a. Melakukan konfigurasi alamat IP address dan default gateway-nya, saya menggunakan `192.168.56.11`, angka 11 di sini merupakan nomor absen saya di mata kuliah Administrasi Sistem.      
-Syntax: `*sudo ifconfig ens33 192.168.56.11 netmask 255.255.255.0*`     
-![Screenshot_5383](https://github.com/Edran32/UAP-AdSis/assets/50135710/7cab568a-5d64-45ef-b402-58ab6a6d8d85)     
-![Screenshot_5384](https://github.com/Edran32/UAP-AdSis/assets/50135710/1dbc22e6-e890-4477-a9f4-46c2d45c986c)       
+Syntax: `sudo ifconfig ens33 192.168.56.11 netmask 255.255.255.0`     
+   ![Screenshot_5383](https://github.com/Edran32/UAP-AdSis/assets/50135710/7cab568a-5d64-45ef-b402-58ab6a6d8d85)     
+   ![Screenshot_5384](https://github.com/Edran32/UAP-AdSis/assets/50135710/1dbc22e6-e890-4477-a9f4-46c2d45c986c)       
+b. Melakukan konfigurasi IP address default gateway dengan perintah route add      
+Syntax: `sudo route add default gw 192.168.56.11 ens33`        
+   ![Screenshot_5385](https://github.com/Edran32/UAP-AdSis/assets/50135710/becba3b3-149e-49c1-a39f-47ce68aa2e70)            
+
+c. Menjalankan perintah sudo route -n untuk memastikan informasi pada routing table
+   ![image](https://github.com/Edran32/UAP-AdSis/assets/50135710/46bac9a5-04d0-4d6d-bbed-d7803322dfaf)           
+
+
 
 3. Lakukan Instalasi Webmin lalu buatlah user bernama nama anda, lalu buat group Adsis_(kelas masing-masing) dan masukkan nama anda di group.  
   
