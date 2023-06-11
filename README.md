@@ -74,3 +74,13 @@ c. Lakukan ping kembali menggunakan perintah yang sama pada langkah (a)
 
   
 ## 5. Buatlah perintah otomatis yang berfungsi untuk ping www.filkom.ub.ac.id
+a. Masuk dan konfigurasi file cron menggunakan perintah berikut, kemudian pilih opsi 1
+   Syntax: `sudo crontab -e.`    
+   ![image](https://github.com/Edran32/UAP-AdSis/assets/50135710/e6e2020a-7ea7-4108-bb8e-a46f7c669dca)            
+b. Memasukkan perintah untuk ping filkom.ub.ac.id setiap 1 menit. Konfigurasi `*/1 * * * * ping filkom.ub.ac.id`. Hal ini bertujuan untuk melakukan ping otomatis ke alamat filkom.ub.ac.id setiap 1 menit.      
+   ![image](https://github.com/Edran32/UAP-AdSis/assets/50135710/b85cc207-5c58-4bd4-abad-3c23cc4867ff)          
+c. Mengetes otomatisasi menggunakan perintah `ps aux | grep ping`   
+   Sistem menjalankan perintah ping filkom.ub.ac.id setiap 1 menit     
+   ![image](https://github.com/Edran32/UAP-AdSis/assets/50135710/3c6d60ad-7095-4d78-9309-3a465ed3e7ab)     
+    
+   
