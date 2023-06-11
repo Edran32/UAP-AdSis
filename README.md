@@ -10,7 +10,7 @@ c. Menjalankan perintah nano untuk membuka file text yang dibuat sebelumnya, kem
    ![Screenshot_5376](https://github.com/Edran32/UAP-AdSis/assets/50135710/8a88e4c8-e727-4213-9fb1-172e0a925459)          
 d. Untuk mengatur permission view-only pada file tersebut untuk user biasa, maka perlu menjalankan perintah perintah sudo chmod 444 pada file `catatannya-edran.txt`. Oleh karena itu, perlu menginputkan password untuk menjalankan perintah dengan hak akses superuser atau root tersebut.           
    ![Screenshot_5380](https://github.com/Edran32/UAP-AdSis/assets/50135710/8cc838b7-7329-475a-bf6a-54a50dc1d8cf)      
-e. Menjalankan perintah ls -l, dapat dilihat bahwa pengguna biasa tidak dapat mengubah, menulis, atau menjalankan file tersebut, hanya dapat membacanya (read-only).
+e. Menjalankan perintah ls -l, dapat dilihat bahwa pengguna biasa tidak dapat mengubah, menulis, atau menjalankan file tersebut, hanya dapat membacanya (read-only).          
    ![Screenshot_5379](https://github.com/Edran32/UAP-AdSis/assets/50135710/1a84e8c2-05a5-44af-a4e3-014867b03cb2)      
    ![Screenshot_5382](https://github.com/Edran32/UAP-AdSis/assets/50135710/bcc461a6-30ea-475c-9312-ea3e5426e9e8)     
   
