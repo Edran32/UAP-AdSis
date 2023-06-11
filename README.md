@@ -5,8 +5,8 @@ a. Membuat sebuah direktori baru yang diberi nama UAP-Adsis menggunakan perintah
    ![Screenshot_5371](https://github.com/Edran32/UAP-AdSis/assets/50135710/0240e11c-4a4b-4758-95e2-46433b8a8500)              
 b. Menggunakan perintah touch untuk membuat sebuah file txt yang diberi nama "catatannya-edran"
    ![Screenshot_5372](https://github.com/Edran32/UAP-AdSis/assets/50135710/42d027c1-cedd-4e98-a3e9-d525571432dd)
-c. Menjalankan perintah nano untuk membuka file text yang dibuat sebelumnya, kemudian menambahkan nama dan NIM di dalam file tersebut.
-   ![Screenshot_5373](https://github.com/Edran32/UAP-AdSis/assets/50135710/35363712-0a41-472f-8417-377ab5c0d371)
+c. Menjalankan perintah nano untuk membuka file text yang dibuat sebelumnya, kemudian menambahkan nama dan NIM di dalam file tersebut.     
+   ![Screenshot_5373](https://github.com/Edran32/UAP-AdSis/assets/50135710/35363712-0a41-472f-8417-377ab5c0d371)       
    ![Screenshot_5374](https://github.com/Edran32/UAP-AdSis/assets/50135710/f2549663-befd-450e-b4fc-3af728cf950f)
   
 2. Lakukan konfigurasi alamat IP address sementara pada sistem dan default gateway. (petunjuk 192.168.56.x | x adalah nomor absen)
